@@ -1,11 +1,10 @@
 <div align="center">
 
-# 👋 안녕하세요, 장준호입니다.
+# 👋 Hi, I'm Junho
 
 ### Backend Developer
 
-문제의 원인을 분석하고 해결하는 과정을 중요하게 생각하며,  
-사용자가 실제로 사용할 수 있는 서비스를 만드는 개발자를 목표로 하고 있습니다.
+
 
 <br>
 
@@ -13,6 +12,7 @@
 
 ### Backend
 <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
 <img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square&logoColor=white"/>
 
