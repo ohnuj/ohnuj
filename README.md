@@ -33,23 +33,33 @@
 
 <br>
 
-## 📌 Projects
+## 📌 Project
 
 ### 🌱 지구비우기
 생활형 친환경 실천 플랫폼
 
-재활용품 검색 · 에코맵 · 커뮤니티 · 에코포인트 · 리워드 · 미니게임
+- 재활용품 검색 및 배출 방법 안내
+- Kakao Map 기반 에코맵
+- 커뮤니티 / 관리자 기능
+- 에코포인트 및 리워드 시스템
+- 재활용 미니게임
+- 인프라 구성 및 배포
 
-### 📔 Emotion Diary
-React 기반 감정 일기장
-
-### 💬 MySNS
-Spring 기반 SNS 프로젝트
+**Tech Stack**  
+Java · Spring Legacy · MyBatis · MySQL · JavaScript
 
 <br>
+
+## 📚 Study & Practice
+
+- React > Emotion Diary
+- Spring Boot > SNS
+- JAVA - DB > BulletinBoard
 
 ## 📫 Contact
 
 📧 jjh980225@gmail.com
+📧 jjho980225@naver.com
+
 
 </div>
