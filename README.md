@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Junho
 
-### Backend Developer
+### Backend Developer / Frontend Developer
 
 Java와 Spring을 중심으로 웹 애플리케이션 개발을 공부하고 있습니다.  
 백엔드 개발을 중심으로 React 기반 프론트엔드와 데이터베이스,  
