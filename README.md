@@ -23,7 +23,7 @@
 
 `Spring Boot` `React` `Redis` `WebSocket` `MySQL`
 
-<sub>저장소 포크 및 시연 영상 공개 예정</sub>
+**[Code ↗](https://github.com/ohnuj/spoilock) · [시연 영상 ↗](https://youtu.be/z9cc1VkcjHE)**
 
 <br>
 
