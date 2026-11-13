@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.gif" width="100%" alt="JUNHO — Java & Spring Developer" />
+  <img src="./junho-header-v3.gif" width="100%" alt="JUNHO — Java & Spring Developer" />
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 <h2 id="projects">Selected Work</h2>
 
-<img src="./assets/spoilock.png" width="100%" alt="대표 프로젝트 SPOILOCK — 시청 진도 기반 AI 스포일러 보호 커뮤니티" />
+<img src="./junho-spoilock-v3.png" width="100%" alt="대표 프로젝트 SPOILOCK — 시청 진도 기반 AI 스포일러 보호 커뮤니티" />
 
 **실시간 채팅부터 사용자 화면, 인증·연결 복구까지 구현했습니다.**
 
@@ -27,7 +27,7 @@
 
 <br>
 
-<a href="https://github.com/ohnuj/mood-and-move"><img src="./assets/mood-and-move.png" width="100%" alt="Mood & Move" /></a>
+<a href="https://github.com/ohnuj/mood-and-move"><img src="./junho-mood-v3.png" width="100%" alt="Mood & Move" /></a>
 
 **개인화 추천과 응답 검증, 저장 일관성·추적 로그를 구현했습니다.**
 
@@ -41,7 +41,7 @@
 
 <br>
 
-<a href="https://github.com/ohnuj/jigubium"><img src="./assets/jigubium.png" width="100%" alt="지구비우기" /></a>
+<a href="https://github.com/ohnuj/jigubium"><img src="./junho-jigubium-v3.png" width="100%" alt="지구비우기" /></a>
 
 **서비스 설계와 포인트·리워드를 구현하고, 팀 진행 상황을 조율했습니다.**
 
@@ -76,3 +76,4 @@
   <a href="mailto:jjh980225@gmail.com">Gmail</a> &nbsp; · &nbsp;
   <a href="mailto:jjho980225@naver.com">Naver Mail</a>
 </p>
+
