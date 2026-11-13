@@ -1,184 +1,124 @@
 <div align="center">
 
 # JUNHO JANG
-### Backend Developer · Java & Spring
 
-**기능 구현부터 배포 후 문제 해결까지, 서비스의 전체 흐름을 고민합니다.**
+**BACKEND DEVELOPER**
 
-Java와 Spring 기반으로 웹 서비스를 개발합니다.  
-React 화면과 API를 연결하고, 실시간 통신·인증·데이터 처리 과정에서  
-사용자가 겪는 문제를 찾아 개선하는 데 관심이 있습니다.
+Java & Spring · Real-time Communication · AI-powered Services
 
 <br>
 
-[![Gmail](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jjh980225@gmail.com)
-[![Naver Mail](https://img.shields.io/badge/Naver_Mail-03C75A?style=flat-square&logo=naver&logoColor=white)](mailto:jjho980225@naver.com)
+[![Email](https://img.shields.io/badge/EMAIL-181717?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jjh980225@gmail.com)
+[![Contact](https://img.shields.io/badge/CONTACT-181717?style=for-the-badge&logo=naver&logoColor=white)](mailto:jjho980225@naver.com)
+
+<br>
+
+**사용자 화면부터 서버, 데이터, 배포까지.**  
+서비스가 동작하는 전체 흐름을 연결합니다.
 
 </div>
 
 <br>
 
-## About Me
+## ⚡ TECH STACK
 
-- **Backend 중심 개발** — Spring 기반 API와 데이터 처리, 인증·인가 및 서비스 로직 구현
-- **사용자 흐름을 고려한 구현** — React 화면부터 API·DB까지 연결해 기능 완성
-- **실시간 서비스 경험** — WebSocket·STOMP 및 Redis Pub/Sub을 활용한 채팅 구현
-- **배포 이후의 문제 해결** — 브라우저 요청과 서버 로그를 바탕으로 인증·연결·파일 접근 문제 분석
+<div align="center">
+
+**BACKEND**
+
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-181717?style=for-the-badge)
+
+**FRONTEND**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![HTML](https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css&logoColor=663399)
+
+**DATA & INFRA**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logoColor=white)
+
+**TOOLS**
+
+![Git](https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=F05032)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-181717?style=flat-square&logo=githubactions&logoColor=2088FF)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-181717?style=flat-square&logo=intellijidea&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-181717?style=flat-square)
+
+</div>
 
 <br>
 
-## Selected Projects
+## 🚀 PROJECTS
 
-| 프로젝트 | 소개 | 주요 기술 |
-| :--- | :--- | :--- |
-| **SPOILOCK** | 시청 진도 기반 AI 스포일러 보호 커뮤니티 | Spring Boot · React · Redis · WebSocket · FastAPI |
-| **지구비우기** | 재활용 정보와 에코포인트를 연결한 친환경 실천 플랫폼 | Spring MVC · MyBatis · MySQL · Thymeleaf |
-| **Mood & Move** | AI 감정 분석 및 맞춤형 행동 추천 서비스 | Spring Boot · React · MySQL · MongoDB · Gemini API |
+### 🔒 SPOILOCK
+**시청한 만큼 이야기하는 AI 스포일러 보호 커뮤니티**
 
-<br>
-
-### 01. SPOILOCK
-> 시청한 만큼 이야기하고, 아직 보지 않은 이야기는 보호하는 드라마 커뮤니티
-
-사용자별 시청 진도와 AI 판정 결과를 바탕으로 채팅·커뮤니티의 스포일러 노출을 제어하는 서비스입니다.  
-드라마 시청, 실시간 채팅, 게시글과 댓글을 하나의 서비스 흐름으로 연결했습니다.
-
-#### 서비스 주요 기능
-
-| 영역 | 구현 내용 |
+| SERVICE | MY CONTRIBUTION |
 | :--- | :--- |
-| 콘텐츠 | 작품·회차 조회, 영상 재생, 이어보기, 시청 진도 및 별점 관리 |
-| 실시간 채팅 | 작품별 토론방·자유방·비밀방, 참여·퇴장, 방장 위임, 강퇴 및 초대 |
-| 스포일러 보호 | AI 분석 결과와 작성자·조회자의 시청 진도를 반영한 공개 정책 |
-| 커뮤니티 | 게시글·댓글, 전체 공개·팔로워 공개, 사진 첨부, 좋아요 및 팔로우 |
-| 사용자 기능 | 마이페이지, 신고, 알림 및 읽지 않은 알림 수 표시 |
-| 관리자 | 콘텐츠 관리, AI 판정 모니터링, 저작권 이용 권한·증빙자료·변경 이력 관리 |
+| AI 판정 × 시청 진도 기반 스포일러 보호 | 실시간 채팅 · 채팅방 관리 |
+| 드라마 시청 · 실시간 채팅 · 커뮤니티 | 영상 시청 · 작품 상세 · 마이페이지 |
+| 팔로우 · 신고 · 알림 · 관리자 기능 | 신고·알림 · 커뮤니티 UI 개선 |
+| 저작권 이용 권한 · 증빙자료 관리 | 인증 복구 · WebSocket 연결 안정화 |
 
-#### 주요 담당 및 기여
-
-- WebSocket·STOMP 기반 실시간 채팅과 채팅방 관련 기능 구현
-- 참여자 접속 상태, 방장 위임, 초대 및 강퇴 등 채팅방 이용 흐름 구성
-- 영상 시청·작품 상세·마이페이지 구현 및 화면과 API 연동
-- 신고·팔로우 알림과 읽음·삭제 처리 구현
-- 커뮤니티 사진 첨부와 미리보기, 공개 범위 및 수정·삭제 UI 개선
-- 인증 복구 실패 시 반복 요청 제한과 WebSocket 연결·종료 처리 보완
-- 관리자 저작권 이용 권한 및 증빙자료 관리 기능 구현
-
-#### 기술적으로 고민한 부분
-
-| 주제 | 접근 방식 |
-| :--- | :--- |
-| 서버 간 실시간 이벤트 전달 | Redis Pub/Sub을 통해 여러 Spring 서버에 이벤트 공유 |
-| 인증 만료와 자동 조회 | 세션 복구 요청 공유, 실패 상태에 따른 요청 제한 및 재시도 |
-| WebSocket 연결 수명 관리 | 연결 전 인증 확인, 중단된 연결 복구, 화면 종료 시 자원 정리 |
-| 스포일러 공개 정책 | AI 판정과 실제 공개 여부를 분리하고 사용자별 시청 진도 반영 |
-| AI 판정의 한계 | 회차 정확도·인터넷 표현·동일 입력의 일관성 문제를 정리하고 개선 방향 검토 |
-
-**Tech Stack**
-
-`Java` `Spring Boot` `Spring Security` `JPA` `QueryDSL` `MySQL`  
-`React` `Redis` `WebSocket` `STOMP` `FastAPI` `Gemini API`  
-`AWS EC2` `Amazon S3` `GitHub Actions`
-
-<sub>프로젝트 전체 기술 스택이며, 개인 담당 범위는 위의 ‘주요 담당 및 기여’에 구분했습니다.</sub>
+`Spring Boot` `React` `MySQL` `Redis` `WebSocket`  
+`FastAPI` `Gemini API` `AWS EC2` `S3`
 
 <br>
 
----
+### 🌱 지구비우기
+**재활용 정보부터 포인트·리워드까지 연결한 친환경 플랫폼**
 
-### 02. 지구비우기
-> 재활용 정보를 찾는 것에서, 직접 실천하는 경험까지
-
-재활용 정보 검색과 수거함 위치 조회를 제공하고,  
-커뮤니티 활동과 미니게임을 에코포인트·리워드 교환으로 연결한 친환경 플랫폼입니다.
-
-| 영역 | 구현 내용 |
+| SERVICE | MY CONTRIBUTION |
 | :--- | :--- |
-| 재활용 정보 | 공공데이터 기반 품목 검색 및 분류 기준·배출 방법 안내 |
-| 에코맵 | Kakao Map 기반 수거함 위치 조회 및 종류별 필터링 |
-| 에코포인트 | 활동별 포인트 적립·차감 및 변동 이력 관리 |
-| 리워드 | 포인트 잔액·상품 재고 검증, 교환 신청 및 관리자 처리 |
-| 커뮤니티 | 게시글·댓글, 공지사항 및 건의사항 |
-| 참여 기능 | Drag & Drop 방식의 재활용 분류 미니게임 |
+| 재활용품 검색 · 배출 방법 안내 | 화면 흐름 · ERD · DB 설계 |
+| 수거함 지도 · 커뮤니티 · 미니게임 | 재활용 정보 검색 |
+| 에코포인트 적립 · 리워드 교환 | 포인트 · 리워드 · 관리자 기능 |
+| 활동을 통한 친환경 실천 유도 | 팀장 · 역할 분담 및 일정 조율 |
 
-#### 주요 담당 및 기여
-
-- 화면 흐름과 ERD 설계 및 데이터베이스 구성
-- 재활용 정보 검색 기능 구현
-- 에코포인트 적립·사용 및 이력 관리
-- 리워드 교환과 관리자 처리 기능 구현
-- 팀장으로서 역할 분담과 진행 상황 조율
-
-**Tech Stack**
-
-`Java` `Spring MVC` `MyBatis` `MySQL` `Thymeleaf` `JavaScript`
+`Java` `Spring MVC` `MyBatis` `MySQL` `Thymeleaf`
 
 <br>
 
----
+### 🧠 Mood & Move
+**감정을 기록하고, 나에게 맞는 행동을 추천받는 AI 서비스**
 
-### 03. Mood & Move
-> 감정 기록을 바탕으로, 지금 나에게 필요한 행동을 제안하는 서비스
-
-사용자의 감정과 일기 내용을 분석하고 Gemini API를 활용해 행동을 추천합니다.  
-행동 실행 후의 감정 변화와 사용자 선호 정보를 추천 개인화에 활용하도록 구성했습니다.
-
-| 영역 | 구현 내용 |
+| CORE FEATURES | IMPLEMENTATION |
 | :--- | :--- |
-| 감정 기록 | 감정·일기 입력 및 현재 상태 분석 |
-| AI 추천 | Gemini API 기반 맞춤형 행동 제안 |
-| 개인화 | 선호·비선호·취미 및 행동 실행 결과 반영 |
-| 통계 | 감정 기록과 행동 효과 시각화 |
-| 사용자 관리 | 인증 및 회원정보 관리 |
-| 배포 | Docker·AWS EC2 기반 서비스 배포 |
+| 감정·일기 분석 | Gemini API 연동 |
+| 개인 맞춤 행동 추천 | 선호·취미·행동 결과 반영 |
+| 감정 변화 · 행동 효과 확인 | 기록 및 통계 시각화 |
+| 서비스 배포 | Docker · AWS EC2 |
 
-**Tech Stack**
+`Spring Boot` `JPA` `React` `MySQL` `MongoDB` `Gemini API`
 
-`Java` `Spring Boot` `JPA` `MySQL` `MongoDB`  
-`React` `Gemini API` `Docker` `AWS EC2`
+<sub>각 프로젝트의 기술 목록은 팀 프로젝트 전체 스택입니다.</sub>
 
 <br>
 
-## Technical Skills
+## 🎯 FOCUS
 
-| 분야 | 사용 기술 |
-| :--- | :--- |
-| **Languages** | Java · JavaScript · Python |
-| **Backend** | Spring Boot · Spring MVC · Spring Security · JPA · QueryDSL · MyBatis |
-| **Frontend** | React · HTML · CSS · Thymeleaf |
-| **Data** | MySQL · MongoDB · Redis |
-| **Communication** | REST API · WebSocket · STOMP · Redis Pub/Sub |
-| **Infra & Delivery** | Linux · AWS EC2 · Amazon S3 · Docker · GitHub Actions |
-| **Tools** | Git · GitHub · IntelliJ IDEA · VS Code · MySQL Workbench |
+| REAL-TIME | RELIABILITY | AI INTEGRATION |
+| :---: | :---: | :---: |
+| WebSocket · STOMP | 인증 복구 · 재시도 제어 | AI API · 공개 정책 |
+| 실시간 채팅과 이벤트 전달 | 연결 중단과 실패 상황 대응 | 분석 결과를 서비스에 연결 |
 
 <br>
 
-## Engineering Focus
+## 🧩 PRACTICE
 
-**실패한 이후의 흐름까지 설계하기**
-
-요청 성공뿐 아니라 인증 만료, 연결 중단, 외부 API 지연 상황에서  
-사용자에게 무엇을 보여주고 언제 다시 시도할지 함께 고민합니다.
-
-**문제를 재현하고 근거로 확인하기**
-
-브라우저 네트워크 요청, 서버 로그, 데이터베이스 상태를 함께 확인하며 원인을 좁힙니다.  
-빌드 성공과 실제 서비스의 정상 동작을 구분하고, 수정 후에는 해당 흐름을 다시 검증하려고 합니다.
-
-**AI를 서비스의 한 부분으로 다루기**
-
-AI 응답을 그대로 사용하는 데 그치지 않고, 데이터 품질과 판정 근거,  
-공개 정책, 지연과 비용까지 고려하는 개발을 지향합니다.
-
-<br>
-
-## Study & Practice
-
-| 주제 | 학습 프로젝트 |
-| :--- | :--- |
-| React | Emotion Diary |
-| Spring Boot | SNS |
-| Java · Database | Bulletin Board |
+| React | Spring Boot | Java · DB |
+| :---: | :---: | :---: |
+| Emotion Diary | SNS | Bulletin Board |
 
 <br>
 
@@ -186,11 +126,8 @@ AI 응답을 그대로 사용하는 데 그치지 않고, 데이터 품질과 �
 
 <div align="center">
 
-### Contact
+**LET’S CONNECT**
 
-프로젝트와 개발 경험에 대한 이야기를 환영합니다.
-
-**[jjh980225@gmail.com](mailto:jjh980225@gmail.com)**  
-**[jjho980225@naver.com](mailto:jjho980225@naver.com)**
+[jjh980225@gmail.com](mailto:jjh980225@gmail.com) · [jjho980225@naver.com](mailto:jjho980225@naver.com)
 
 </div>
