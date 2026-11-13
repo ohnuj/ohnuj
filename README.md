@@ -27,34 +27,31 @@
 
 <br>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 <a href="https://github.com/ohnuj/mood-and-move"><img src="./assets/mood-and-move.png" width="100%" alt="Mood & Move" /></a>
 
-<b>감정을 행동으로 연결하는 AI 추천 서비스</b>
-<p>개인화 추천 · 응답 검증 · 저장 일관성 · 추적 로그 구현</p>
-<p>표본 수 기반 추천 모드 전환과 일기·추천 트랜잭션 저장, 주변 장소 검색을 담당했습니다.</p>
-<p><code>Spring Boot</code> <code>Gemini</code><br><code>MySQL</code> <code>MongoDB</code></p>
-<a href="https://github.com/ohnuj/mood-and-move"><b>Code ↗</b></a> &nbsp; · &nbsp;
-<a href="https://youtu.be/KhvVEx4mxlc"><b>시연 영상 ↗</b></a>
+**개인화 추천과 응답 검증, 저장 일관성·추적 로그를 구현했습니다.**
 
-</td>
-<td width="50%" valign="top">
+- **추천** — 표본 수·신뢰도 기반 개인화 점수 및 추천 모드 전환
+- **검증·저장** — LLM 응답 검증 · 일기·추천 트랜잭션 저장
+- **연동·추적** — 주변 장소 검색 · 캐시·재시도 · MongoDB 추적 로그
+
+`Spring Boot` `Gemini API` `MySQL` `MongoDB` `Kakao Local API`
+
+**[Code ↗](https://github.com/ohnuj/mood-and-move) · [시연 영상 ↗](https://youtu.be/KhvVEx4mxlc)**
+
+<br>
 
 <a href="https://github.com/ohnuj/jigubium"><img src="./assets/jigubium.png" width="100%" alt="지구비우기" /></a>
 
-<b>친환경 실천을 포인트·리워드로 연결</b>
-<p>팀장 · 화면·DB 설계 · 재활용 검색 · 포인트·리워드 구현</p>
-<p>활동별 포인트 관리와 리워드 교환·관리자 기능을 구현하고 팀 진행 상황을 조율했습니다.</p>
-<p><code>Spring MVC</code> <code>MyBatis</code><br><code>MySQL</code> <code>Thymeleaf</code></p>
-<a href="https://github.com/ohnuj/jigubium"><b>Code ↗</b></a> &nbsp; · &nbsp;
-<a href="https://youtu.be/zqBimjOBDw8"><b>시연 영상 ↗</b></a>
+**서비스 설계와 포인트·리워드를 구현하고, 팀 진행 상황을 조율했습니다.**
 
-</td>
-</tr>
-</table>
+- **설계** — 화면 흐름 · ERD · 데이터베이스 구성
+- **구현** — 재활용 검색 · 포인트 적립·사용·이력 · 리워드·관리자 기능
+- **협업** — 팀장 · 역할 분담 · 진행 상황 조율
+
+`Java` `Spring MVC` `MyBatis` `MySQL` `Thymeleaf`
+
+**[Code ↗](https://github.com/ohnuj/jigubium) · [시연 영상 ↗](https://youtu.be/zqBimjOBDw8)**
 
 <br>
 
